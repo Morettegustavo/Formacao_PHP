@@ -5,8 +5,13 @@
 * **`Meus estudos de PHP, e laravel(framework PHP).`**
 # Cursos
 ***
-- [ ] PHP: conceitos, lidando com dados, loops e mais
+- [x] PHP: conceitos, lidando com dados, loops e mais
 * Saiba o que é PHP e onde é utilizado
 * Use o PHPStorm para escrever código PHP
 * Conheça os tipos mais importantes da linguagem
 * Tome decisões no seu código e repete ações
+# Certificado
+***
+![php-1-frente](https://user-images.githubusercontent.com/88351614/183268371-6fbf300c-5ac7-4e99-8eb1-5049c2a44dad.png)
+![php-1-verso](https://user-images.githubusercontent.com/88351614/183268387-48fbc58d-1c41-49d2-8dfc-62ad058dfa62.png)
+
