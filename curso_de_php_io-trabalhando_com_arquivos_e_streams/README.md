@@ -11,5 +11,23 @@
 * Use streams e trabalhe com ZIP
 * Leia e escreva o formato CSV
 * Conheça encodings e character sets
+<hr>
 
+# Comandos e sintaxes aprendidas durante curso
+***
+Quando falamos em trabalhar com arquivos na programação, a primeira coisa que devemos pensar é que devemos abrir o arquivo.
+A função que usamos no php para isso é fopen f = file (arquivo), open (abrir).
+```
+A função que usamos no php para isso é fopen f = file (arquivo), open (abrir).
+```
+Podemos fazer um loop para ler linha por linha do arquivo
+```
+while(!feof($file)){
+	$curso = fgets($file);
+}
+```
+> <strong>feof()</strong> - A função verifica se o “fim do arquivo (EOF)” foi atingido. 
 
+> <strong>fgets()</strong> - A função fgets é usada para ler uma linha do arquivo.
+
+> <strong>fclose()</strong> - Se os deixarmos abertos, mais ninguém poderá utilizá-los, ou seja, nenhum outro programa conseguirá manipular o arquivo que você abriu. A função <strong>fclose()</strong> fechará o arquivo, ou seja, liberamos ele para que outros programas possam utilizá-lo sem problemas.
