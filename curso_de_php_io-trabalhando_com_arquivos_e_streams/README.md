@@ -5,7 +5,7 @@
 * **`Meus estudos de PHP, e laravel(framework PHP).`**
 # Cursos
 ***
-- [] PHP I/O: trabalhando com arquivos e streams
+- [ ] PHP I/O: trabalhando com arquivos e streams
 * Utilize arquivos, console e teclado
 * Aplique wrappers e filtros nos streams
 * Use streams e trabalhe com ZIP
