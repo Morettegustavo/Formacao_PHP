@@ -13,8 +13,9 @@
 * Conheça encodings e character sets
 <hr>
 
-# Comandos e sintaxes aprendidas durante curso
+># Comandos e sintaxes aprendidas durante curso
 ***
+# Lendo arquivos
 
 ### Lendo linha a linha
 Quando falamos em trabalhar com arquivos na programação, a primeira coisa que devemos pensar é que devemos abrir o arquivo.
@@ -58,6 +59,7 @@ file()
 > Essa função pega cada linha e coloca dentro de uma posição de um array
 <hr>
 
+# Escrevendo em arquivos
 
 
 
