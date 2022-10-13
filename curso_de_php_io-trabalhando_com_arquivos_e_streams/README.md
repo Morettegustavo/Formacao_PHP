@@ -46,6 +46,17 @@ fread($myfile,filesize("webdictionary.txt"));
 ```
 <hr>
 
+### Facilitando a leitura
+* Abrir um arquivo, em seguida ler, e fechar não é nada prático! O PHP tem uma função que já faz isso tudo para nós!
+```
+file_get_contents()
+```
+* Também temos outra função do PHP que facilita muito dependendo do problema que estamos enfrentando:
+```
+file()
+```
+> Essa função pega cada linha e coloca dentro de uma posição de um array
+<hr>
 
 
 
