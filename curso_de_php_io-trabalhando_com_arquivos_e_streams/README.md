@@ -13,8 +13,9 @@
 * Conheça encodings e character sets
 <hr>
 
-# Comandos e sintaxes aprendidas durante curso
+># Comandos e sintaxes aprendidas durante curso
 ***
+# Lendo arquivos
 
 ### Lendo linha a linha
 Quando falamos em trabalhar com arquivos na programação, a primeira coisa que devemos pensar é que devemos abrir o arquivo.
@@ -46,7 +47,19 @@ fread($myfile,filesize("webdictionary.txt"));
 ```
 <hr>
 
+### Facilitando a leitura
+* Abrir um arquivo, em seguida ler, e fechar não é nada prático! O PHP tem uma função que já faz isso tudo para nós!
+```
+file_get_contents()
+```
+* Também temos outra função do PHP que facilita muito dependendo do problema que estamos enfrentando:
+```
+file()
+```
+> Essa função pega cada linha e coloca dentro de uma posição de um array
+<hr>
 
+# Escrevendo em arquivos
 
 
 
