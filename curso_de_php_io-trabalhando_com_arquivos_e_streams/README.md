@@ -60,6 +60,20 @@ file()
 <hr>
 
 # Escrevendo em arquivos
+### Escrevendo em arquivos
+* Novamente seguimos aquelas etapas, abrimos o arquivo fopen(), se para lermos era fread(), para escrevermos será fwrite()
+```
+<?php
 
+$file = fopen('cursos-php.txt', 'w');
 
+$curso = 'Design Patterns PHP I: Boas práticas de programação';
 
+fwrite($file,$curso);
+
+fwrite($file, $curso, 21);
+
+fclose($file);
+```
+>  se quisermos informar a quantidade de caracteres a serem escritos podemos adicionar um terceiro paramêtro
+<hr>
