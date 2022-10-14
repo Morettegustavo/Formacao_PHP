@@ -94,3 +94,18 @@ $file = fopen('cursos-php.txt', 'a');
 Essas são algumas das formas de modo de leitura, confira todas na [documentação](https://www.php.net/manual/pt_BR/function.fopen.php)
 <hr>
 
+### Facilitando a escrita
+* Uma maneira de escrever em um arquivo de uma maneira muito fácil é usando file_put_contents
+
+```
+$curso = 'Design Patterns PHP I: Boas práticas de programação';
+file_put_contents('cursos-php.txt', $curso);
+```
+> Podemos também passar um terceiro parâmetro que é uma flag
+
+```
+$curso = PHP_EOL . 'Design Patterns PHP II: Boas práticas de programação';
+file_put_contents('cursos-php.txt', $curso, FILE_APPEND);
+```
+> FILE_APPEND Esta constante pré-definida pelo PHP é utilizada para informar que o conteúdo deve ser adicionado ao final do arquivo
+<hr>
