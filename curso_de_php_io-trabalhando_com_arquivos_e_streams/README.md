@@ -77,3 +77,20 @@ fclose($file);
 ```
 >  se quisermos informar a quantidade de caracteres a serem escritos podemos adicionar um terceiro paramêtro
 <hr>
+
+### Modos de leitura fopen()
+
+* O segundo parâmetro dá função fopen() é o modo de abertura
+
+```
+$file = fopen('cursos-php.txt', 'a');
+```
+> Existem algumas formas de abertura entre elas:
+
+* <strong>r - </strong>	Abre somente para leitura; coloca o ponteiro do arquivo no começo do arquivo.
+* <strong>w - </strong> Abre somente para escrita; coloca o ponteiro do arquivo no começo do arquivo e reduz o comprimento do arquivo para zero. Se o arquivo não existir, tenta criá-lo.
+* <strong>a - </strong>	Abre somente para escrita; coloca o ponteiro do arquivo no final do arquivo. Se o arquivo não existir, tenta criá-lo.
+
+Essas são algumas das formas de modo de leitura, confira todas na [documentação](https://www.php.net/manual/pt_BR/function.fopen.php)
+<hr>
+
