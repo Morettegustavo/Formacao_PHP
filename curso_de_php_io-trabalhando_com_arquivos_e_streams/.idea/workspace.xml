@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6742cf5-286a-4700-9f73-8ff5dcfd7eb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/arquivos-para-csv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/cursos-php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/lista-de-cursos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +32,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ecenture/Documentos/GitHub/PHP_studies/curso_de_php_io-trabalhando_com_arquivos_e_streams/contexto-em-streams/aula14-lendo-zip-com-senha",
+    "last_opened_file_path": "/home/ecenture/Documentos/GitHub/PHP_studies/curso_de_php_io-trabalhando_com_arquivos_e_streams/funcoes-especificas/aula15-trabalhando-com-CSV",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV" />
       <recent name="$PROJECT_DIR$/contexto-em-streams/aula14-lendo-zip-com-senha" />
       <recent name="$PROJECT_DIR$/trabalhando-no-console/aula12-escrevendo-na-tela" />
       <recent name="$PROJECT_DIR$/trabalhando-no-console" />
@@ -54,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665839010732</updated>
       <workItem from="1665839012904" duration="1165000" />
-      <workItem from="1665840182874" duration="8972000" />
+      <workItem from="1665840182874" duration="11922000" />
     </task>
     <servers />
   </component>

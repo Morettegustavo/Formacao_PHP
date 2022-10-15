@@ -166,3 +166,18 @@ echo fread($fileCursos, filesize('lista-de-cursos'));
 # Contexto em streams
 > É possível adicionar o que é chamado de contexto à manipulação dos streams, com isso conseguimos informar cabeçalhos, o verbo HTTP, conteúdo. 
 * A função que é usada para criar contexto é: `stream_context_create`
+<hr>
+
+# Funções especificas
+> É fácil escrever um conteúdo em um arquivo utilizando o formato CSV, através da função fputcsv. Além do arquivo aberto, precisamos passar um array onde cada item será uma “coluna” no arquivo.
+
+``` 
+foreach ($meusCursos as $curso) {
+    $linha = [trim($curso), 'Sim'];
+
+    fputcsv($arquivoCsv, $linha, ';');
+}
+``` 
+<hr>
+
+
