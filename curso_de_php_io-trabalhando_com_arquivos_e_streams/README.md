@@ -137,3 +137,20 @@ echo file_get_contents('zip://arquivos.zip#lista-de-cursos');
 * E por último colocamos uma # e o nome do arquivo que está no zip.
 <hr>
 
+### Conhecendo filtros de stream
+* Podemos rodas o seguinte comando no php interativo (php -a).
+```
+var_dump(stream_get_filters());
+```
+* Ele ira listar todos os filtros de stream que temos disponíveis.
+* Para utilizar esses filtros no php usamos a função stream_filter_append().
+``` 
+<?php
+$fileCursos = fopen('lista-de-cursos', 'r');
+
+stream_filter_append($fileCursos, 'string.toupper');
+
+echo fread($fileCursos, filesize('lista-de-cursos'));
+```
+> Nesse filtro deixaremos todas as letras em maiúsculas.
+<hr>
