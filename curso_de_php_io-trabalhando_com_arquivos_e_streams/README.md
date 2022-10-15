@@ -163,3 +163,6 @@ echo fread($fileCursos, filesize('lista-de-cursos'));
 - Para copiar dados diretamente de um *stream* para outro, com `stream_copy_to_stream`, poupando memória
 <hr>
 
+# Contexto em streams
+> É possível adicionar o que é chamado de contexto à manipulação dos streams, com isso conseguimos informar cabeçalhos, o verbo HTTP, conteúdo. 
+* A função que é usada para criar contexto é: `stream_context_create`
