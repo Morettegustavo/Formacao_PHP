@@ -109,3 +109,7 @@ file_put_contents('cursos-php.txt', $curso, FILE_APPEND);
 ```
 > FILE_APPEND Esta constante pré-definida pelo PHP é utilizada para informar que o conteúdo deve ser adicionado ao final do arquivo
 <hr>
+
+# Wrapper e filtros
+> O PHP trabalha com o que pode ser chamado de fluxo de dados (streams) e que eles são muito versáteis. As funções vistas até este ponto trabalham com streams em geral, nos permitindo fazer requisições http, enviar arquivos por ftp, etc.
+
