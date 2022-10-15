@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6742cf5-286a-4700-9f73-8ff5dcfd7eb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wrappers-e-filtros/aula09-conhecendo-filtros-de-stream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrappers-e-filtros/MeuFiltro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrappers-e-filtros/aula10-criando-um-filtro.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrappers-e-filtros/lista-de-cursos" beforeDir="false" afterPath="$PROJECT_DIR$/wrappers-e-filtros/lista-de-cursos" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665839010732</updated>
       <workItem from="1665839012904" duration="1165000" />
-      <workItem from="1665840182874" duration="2507000" />
+      <workItem from="1665840182874" duration="4969000" />
     </task>
     <servers />
   </component>
