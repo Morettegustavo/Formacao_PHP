@@ -128,3 +128,12 @@ file_put_contents('cursos-php.txt', $curso, FILE_APPEND);
 - [ogg://](https://www.php.net/manual/en/wrappers.audio.php)   - fluxos de áudio
 - [expect://](https://www.php.net/manual/en/wrappers.expect.php)  - Fluxos de Interação do Processo
 
+### Lendo um arquivo zip
+```
+<?php
+echo file_get_contents('zip://arquivos.zip#lista-de-cursos');
+```
+* Primeiro passamos o nome do arquivo zip.
+* E por último colocamos uma # e o nome do arquivo que está no zip.
+<hr>
+
