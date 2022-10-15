@@ -113,3 +113,18 @@ file_put_contents('cursos-php.txt', $curso, FILE_APPEND);
 # Wrapper e filtros
 > O PHP trabalha com o que pode ser chamado de fluxo de dados (streams) e que eles são muito versáteis. As funções vistas até este ponto trabalham com streams em geral, nos permitindo fazer requisições http, enviar arquivos por ftp, etc.
 
+* O Php consegue tratar vários protocolos como se fossem arquivos. Alguns dos protocolos tratados pelo php:
+
+- [file://](https://www.php.net/manual/en/wrappers.file.php)  - Acessando o sistema de arquivos local
+- [http://](https://www.php.net/manual/en/wrappers.http.php) - Acessando URLs HTTP(s)
+- [ftp://](https://www.php.net/manual/en/wrappers.ftp.php)   -  Acessando URLs de FTP(s)
+- [php://](https://www.php.net/manual/en/wrappers.php.php)  - Acessando vários fluxos de E/S
+- [zlib://](https://www.php.net/manual/en/wrappers.compression.php)   - Fluxos de compactação
+- [data://](https://www.php.net/manual/en/wrappers.data.php)  - Dados (RFC 2397)
+- [glob://](https://www.php.net/manual/en/wrappers.glob.php)  - Encontra o padrão de correspondência de nomes de caminho
+- [phar://](https://www.php.net/manual/en/wrappers.phar.php)  - Arquivo PHP
+- [ssh2://](https://www.php.net/manual/en/wrappers.ssh2.php)  - Secure Shell 2
+- [rar://](https://www.php.net/manual/en/wrappers.rar.php)  - RAR
+- [ogg://](https://www.php.net/manual/en/wrappers.audio.php)   - fluxos de áudio
+- [expect://](https://www.php.net/manual/en/wrappers.expect.php)  - Fluxos de Interação do Processo
+
