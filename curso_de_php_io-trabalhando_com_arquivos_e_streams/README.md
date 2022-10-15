@@ -154,3 +154,6 @@ echo fread($fileCursos, filesize('lista-de-cursos'));
 ```
 > Nesse filtro deixaremos todas as letras em maiúsculas.
 <hr>
+
+# Trabalhando no console
+> Para ler uma informação do teclado com php usamos <strong>STDIN</strong>
