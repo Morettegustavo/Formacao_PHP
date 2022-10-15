@@ -157,3 +157,9 @@ echo fread($fileCursos, filesize('lista-de-cursos'));
 
 # Trabalhando no console
 > Para ler uma informação do teclado com php usamos <strong>STDIN</strong>
+
+- Para ler dados do teclado podemos utilizar o *stream* `STDIN`
+- Para escrever na tela como se o console fosse um arquivo, utilizando o `STDOUT` e `STDERR`
+- Para copiar dados diretamente de um *stream* para outro, com `stream_copy_to_stream`, poupando memória
+<hr>
+
