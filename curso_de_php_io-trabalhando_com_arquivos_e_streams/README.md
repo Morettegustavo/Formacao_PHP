@@ -178,6 +178,12 @@ foreach ($meusCursos as $curso) {
     fputcsv($arquivoCsv, $linha, ';');
 }
 ``` 
+- Para trabalhar com arquivos no formato CSV, utilizando as funções `fputcsv` e `fgetcsv`
+- Para ter acesso aos dados de diretórios, através da função `dir`, que nos retorna uma instância de `Directory`
+- Para tratar *streams* como objetos, através da classe `SplFileObject`
+    - **SPL** significa *Standard PHP Library*, que é uma coleção de classes interfaces criadas com o propósito de resolver problemas comuns
+    - Você pode conferir mais detalhes sobre a **SPL** aqui: [https://www.php.net/manual/en/book.spl.php](https://www.php.net/manual/en/book.spl.php)
+
 <hr>
 
 
