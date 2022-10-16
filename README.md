@@ -54,7 +54,7 @@
 
 ## Manipulação de arquivos e tratamento de erros
 
-- [ ] Alura - PHP I/O: trabalhando com arquivos e streams
+- [x] Alura - PHP I/O: trabalhando com arquivos e streams
 * Utilize arquivos, console e teclado
 * Aplique wrappers e filtros nos streams
 * Use streams e trabalhe com ZIP
