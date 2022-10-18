@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6742cf5-286a-4700-9f73-8ff5dcfd7eb2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/arquivos-para-csv.php" beforeDir="false" afterPath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/arquivos-para-csv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/cursos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/funcoes-especificas/aula15-trabalhando-com-CSV/cursos.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funcoes-especificas/aula17-um-pouco-sobre-SPL/spl.php" beforeDir="false" afterPath="$PROJECT_DIR$/funcoes-especificas/aula17-um-pouco-sobre-SPL/spl.php" afterDir="false" />
-    </list>
+    <list default="true" id="d6742cf5-286a-4700-9f73-8ff5dcfd7eb2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ecenture/Documentos/GitHub/PHP_studies/curso_de_php_io-trabalhando_com_arquivos_e_streams/funcoes-especificas/aula17-um-pouco-sobre-SPL",
+    "last_opened_file_path": "/home/ecenture/Documentos/Estudo/php-teste",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -59,6 +54,7 @@
       <updated>1665839010732</updated>
       <workItem from="1665839012904" duration="1165000" />
       <workItem from="1665840182874" duration="14021000" />
+      <workItem from="1666005534305" duration="93000" />
     </task>
     <servers />
   </component>

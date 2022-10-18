@@ -15,5 +15,21 @@
 ># Comandos e sintaxes aprendidas durante curso
 ***
 # Pilha de execução
+## Tratamento de exceções
+* Agora já sabemos como fazer com que o nosso código saiba reagir quando alguma exceção acontece durante a execução.
+
+```
+try {
+    $arrayFixo = new SplFixedArray(2);
+    $arrayFixo[3];
+} catch (RuntimeException $erro){
+    echo "Aconteceu um erro na função 1" . PHP_EOL;
+}
+```
+> Não é posssível ter uma instrução catch, sem uma instrução try
+> 
+> Em nosso catch nós informamos qual tipo de exceção nós queremos pegar e além disso, definimos uma variável que vai conter essa exceção.
+
+
 
 
