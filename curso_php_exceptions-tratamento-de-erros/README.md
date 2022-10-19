@@ -30,6 +30,48 @@ try {
 > 
 > Em nosso catch nós informamos qual tipo de exceção nós queremos pegar e além disso, definimos uma variável que vai conter essa exceção.
 
+<hr>
 
+## Pegando mútiplas exceções
+* Quando queremos personalizar todas as exception que temos podemos fazer dá seguinte maneira:
+```
+try {
+    funcao2();
+} catch (RuntimeException){
+    echo 'Na função 1, eu resolvi o problema na função 2' . PHP_EOL;
+} catch (DivisionByZeroError){
+    echo 'Erro ao dividir um número por zero' . PHP_EOL; 
+}
+```
+* Quando só queremos pegar a exception e não precisamos personalizar a mensagem de erro podemos fazer desssa maneira:
 
+```
+try {
+    funcao2();
+} catch (RuntimeException | DivisionByZeroError){
+    echo 'Na função 1, eu resolvi o problema na função 2' . PHP_EOL;
+}
+```
+ 
+* Podemos também pegar a mensagem de erro
 
+```
+try {
+    funcao2();
+} catch (RuntimeException | DivisionByZeroError $erroOuExcecao){
+    echo $erroOuExcecao->getMessage() . PHP_EOL;
+}
+```
+> Temos algumas informações que podemos pegar do erro:
+* echo $erroOuExcecao->getMessage() . PHP_EOL;
+* echo $erroOuExcecao->getLine() . PHP_EOL;
+* echo $erroOuExcecao->getFile() . PHP_EOL;
+* echo $erroOuExcecao->getTraceAsString() . PHP_EOL;
+
+> getMessage() trás a mensagem de erro. 
+> 
+> getLine() trás a linha. 
+> 
+> getFile() trás o nome do arquivo que ocorreu o erro.
+> 
+> getTraceAsString() trás a pilha, todo o caminho que levou para chegar até o ponto do erro.
