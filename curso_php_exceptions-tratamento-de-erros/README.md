@@ -75,3 +75,18 @@ try {
 > getFile() trás o nome do arquivo que ocorreu o erro.
 > 
 > getTraceAsString() trás a pilha, todo o caminho que levou para chegar até o ponto do erro.
+
+<hr>
+
+### Lançar uma exceção
+```
+$exception = new RuntimeException();
+throw $exception;
+```
+
+> 1 - Para lançar uma exceção, além de instanciá-la, é necessário lançá-la através do throw
+> 
+> 2- Quando uma exceção é lançada, o código para abruptamente, por padrão
+> 
+> 3- Podemos atribuir uma mensagem a uma exceção
+
