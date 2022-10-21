@@ -89,4 +89,7 @@ throw $exception;
 > 2- Quando uma exceção é lançada, o código para abruptamente, por padrão
 > 
 > 3- Podemos atribuir uma mensagem a uma exceção
+> 
+> 4 - Uma exceção nada mais é do que uma classe, logo, podemos instanciar exceções
+
 

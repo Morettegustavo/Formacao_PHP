@@ -10,11 +10,6 @@ function funcao1()
         echo $erroOuExcecao->getLine() . PHP_EOL;
         echo $erroOuExcecao->getFile() . PHP_EOL;
         echo $erroOuExcecao->getTraceAsString() . PHP_EOL;
-        throw new RuntimeException(
-            'Exceção foi trata, mas, pega aí',
-            $erroOuExcecao->getCode(),
-            $erroOuExcecao
-        );
     }
 
     echo 'Saindo da função 1' . PHP_EOL;
