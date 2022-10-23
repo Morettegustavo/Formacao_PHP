@@ -92,4 +92,13 @@ throw $exception;
 > 
 > 4 - Uma exceção nada mais é do que uma classe, logo, podemos instanciar exceções
 
+### Hierarquia de exceções
+
+> No PHP existe uma interface, chamada Throwable, que só é utilizada pelo próprio PHP, e tudo que implementa essa interface pode ser lançado por meio da palavra-chave throw. Não é possível criarmos uma classe própria que implemente diretamente a interface Throwable, ainda que seja possível criarmos classes de exceção
+
+![img.png](img.png)
+
+Falamos um pouco sobre a hierarquia dos tipos que podem ser lançados com a palavra throws, o tipo (classe ou interface) base de toda essa hierarquia é Throwable.
+
+> Throwable essa interface é a base da hierarquia de erros e exceções do PHP.
 
