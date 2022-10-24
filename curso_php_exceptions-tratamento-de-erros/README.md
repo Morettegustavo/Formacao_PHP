@@ -153,3 +153,13 @@ try  {
 > O finally sempre é executado quer peguemos uma exceção ou não.
 
 <hr>
+
+### Tipos de erros
+Antes da versão 7 do PHP, todos os erros gerados no código pelo próprio PHP eram lançados de uma forma bem peculiar e difícil de tratar.
+
+A partir da versão 7, novos métodos e funções do próprio PHP estão começando a lançar exceções e erros que podemos tratar com try - catch, mas ainda falta muito para esse caso ser a maioria.
+
+Então, vale muito a pena ler com mais calma a documentação sobre os erros no PHP: [Erros](https://www.php.net/manual/pt_BR/language.errors.basics.php)
+
+<hr>
+
