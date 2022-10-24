@@ -4,7 +4,7 @@
 
 # Cursos
 ***
-- [ ] PHP Exceptions: tratamento de erros
+- [x] PHP Exceptions: tratamento de erros
 * Aprenda a lançar uma exception
 * Customize uma exception
 * Capture várias exceções ao mesmo tempo
