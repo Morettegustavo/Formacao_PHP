@@ -1,4 +1,4 @@
-# PHP studies 🚀🐘
+# PHP studies - Formação PHP 🚀🐘
 *** 
 ![elefantinho-do-bem-250](https://user-images.githubusercontent.com/88351614/183260985-d5341984-bdd4-4a1b-8a7a-74bb34254763.jpg)
 
@@ -18,22 +18,6 @@
 * Domine os strings e conheça a interpolação
 * Escreva o seu primeiro código na Web
 * Saiba a diferença entre passagem por valor e referência
-
-## Aprofundando em Strings e Arrays
-
-- [ ] Alura - Curso de PHP: manipulando coleções com Arrays
-* Entenda como arrays funcionam em PHP
-* Aprenda a ordenar arrays de várias formas
-* Veja como realizar verificações em arrays
-* Conheça formas de manipular arrays em PHP
-* Descubra várias funções para trabalhar com arrays em PHP
-
-- [ ] Alura - Curso de PHP Strings: Operações e expressões regulares
-* Entenda como arrays funcionam em PHP
-* Aprenda a ordenar arrays de várias formas
-* Veja como realizar verificações em arrays
-* Conheça formas de manipular arrays em PHP
-* Descubra várias funções para trabalhar com arrays em PHP
 
 ## Orientação a objetos
 
