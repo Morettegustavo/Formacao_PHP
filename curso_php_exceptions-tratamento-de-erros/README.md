@@ -125,4 +125,9 @@ try {
 
 <hr>
 
+### Criando uma exceção
+> Criamos a nossa primeira exceção de domínio, ou seja, uma exceção que faça sentido para as nossas regras de negócio.
+
+* Para definirmos uma exceção válida é necessário criar uma classe que herde de alguma Exception, ou de uma classe filha.
+
 
