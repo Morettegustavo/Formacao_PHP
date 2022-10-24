@@ -5,7 +5,7 @@ function funcao1()
     echo 'Entrei na função 1' . PHP_EOL;
     try {
         funcao2();
-    } catch (RuntimeException | DivisionByZeroError $erroOuExcecao){
+    } catch (Throwable $erroOuExcecao){
         echo $erroOuExcecao->getMessage() . PHP_EOL;
         echo $erroOuExcecao->getLine() . PHP_EOL;
         echo $erroOuExcecao->getFile() . PHP_EOL;

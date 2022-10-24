@@ -102,3 +102,27 @@ Falamos um pouco sobre a hierarquia dos tipos que podem ser lançados com a pala
 
 > Throwable essa interface é a base da hierarquia de erros e exceções do PHP.
 
+### SPL Exceptions
+
+> A linguagem PHP essencialmente não define nenhuma exceção. Entretanto, existe uma extensão do PHP, habilitada por padrão em qualquer instalação, chamada SPL - sigla para Standard PHP Library, ou "biblioteca padrão do PHP" - e que fornece diversas funcionalidades.
+
+> Vimos como fazer um bloco catch pegar diversos "problemas", sem utilizar o multi-catch, informando apenas um tipo:
+Como isso é possível?
+> 
+> Resposta: Através do polimorfismo da orientação a objetos
+> * Podemos informar um tipo base do nosso problema, e qualquer outro tipo que estenda ele, ou seja, qualquer tipo que herde desse tipo informado, será pego pelo nosso catch
+
+``` 
+try {
+    funcao2();
+} catch (Throwable $erroOuExcecao){
+    echo $erroOuExcecao->getMessage() . PHP_EOL;
+    echo $erroOuExcecao->getLine() . PHP_EOL;
+    echo $erroOuExcecao->getFile() . PHP_EOL;
+    echo $erroOuExcecao->getTraceAsString() . PHP_EOL;
+}
+```
+
+<hr>
+
+
