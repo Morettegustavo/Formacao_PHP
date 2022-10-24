@@ -61,7 +61,7 @@
 * Leia e escreva o formato CSV
 * Conheça encodings e character sets
 
-- [ ] Alura - Curso de PHP Exceptions: tratamento de erros
+- [x] Alura - Curso de PHP Exceptions: tratamento de erros
 * Aprenda a lançar uma exception
 * Customize uma exception
 * Capture várias exceções ao mesmo tempo
