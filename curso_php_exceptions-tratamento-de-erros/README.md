@@ -184,5 +184,9 @@ ini_set('display_errors', 1);
   * Warning
   * Error (erro fatal)
 > Tratar os erros utilizando a função set_error_handler
+<hr>
 
+# Certificado
+***
+![img_1.png](img_1.png)
 
