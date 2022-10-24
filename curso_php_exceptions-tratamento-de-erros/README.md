@@ -134,7 +134,7 @@ try {
 
 ## Finally
 
-> Quando usamos um try/catch, temso acesso a ainda um terceiro bloco não-obrigatório e pouco utilizado: o finally, que é executado independentemente da ocorrência de uma exceção.
+> Quando usamos um try/catch, temos acesso ainda a um terceiro bloco não-obrigatório e pouco utilizado: o finally, que é executado independentemente da ocorrência de uma exceção.
 
 ``` 
 <?php
