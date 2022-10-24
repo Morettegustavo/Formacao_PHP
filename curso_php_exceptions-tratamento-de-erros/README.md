@@ -163,3 +163,26 @@ Então, vale muito a pena ler com mais calma a documentação sobre os erros no 
 
 <hr>
 
+### Configurações de erros
+
+* As duas principais configurações são error_reporting e display_errors.
+
+> Existem duas formas de modificarmos este comportamento: editando o arquivo php.ini do seu computador, que é o método ideal; ou por meio da função ini_set(), passando o nome e o valor da configuração. Esta última faz exatamente o que faríamos editando diretamente o arquivo php.ini
+> 
+> Como essa configuração é tão importante, o PHP possui também uma função específica error_reporting() com a qual podemos definir que erros queremos exibir. Se passarmos E_ALL, por exemplo, exibiremos todos os erros, independentemente de quais forem.
+
+``` 
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+```
+[Documentação](https://www.php.net/manual/en/errorfunc.constants.php) contendo todos os erros
+
+* Os principais tipos de erros do PHP:
+  * Notice
+  * Warning
+  * Error (erro fatal)
+> Tratar os erros utilizando a função set_error_handler
+
+
