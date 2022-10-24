@@ -2,6 +2,8 @@
 
 namespace Alura\Banco\Modelo\Conta;
 
+use http\Exception\InvalidArgumentException;
+
 abstract class Conta
 {
     private $titular;
@@ -35,8 +37,7 @@ abstract class Conta
     public function deposita(float $valorADepositar): void
     {
         if ($valorADepositar < 0) {
-            echo "Valor precisa ser positivo";
-            return;
+            throw new \InvalidArgumentException();
         }
 
         $this->saldo += $valorADepositar;
