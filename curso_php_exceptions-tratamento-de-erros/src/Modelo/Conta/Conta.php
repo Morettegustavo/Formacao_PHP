@@ -26,8 +26,7 @@ abstract class Conta
         $tarifaSaque = $valorASacar * $this->percentualTarifa();
         $valorSaque = $valorASacar + $tarifaSaque;
         if ($valorSaque > $this->saldo) {
-            echo "Saldo indisponível";
-            return;
+            throw new SaldoInsuficienteException($valorSaque, $this->saldo);
         }
 
         $this->saldo -= $valorSaque;
